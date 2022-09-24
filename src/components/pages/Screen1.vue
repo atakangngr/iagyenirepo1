@@ -5,8 +5,9 @@
     v-bind:style="{'background':'#FFFFFF','paddingTop':'0px','paddingLeft':'0px','paddingRight':'0px','paddingBottom':'0px'}">
     <NucGridCell v-bind:wrap="true" v-bind:reverse="false" overflow="hidden" direction="column"
       v-bind:showInDevice="['xs','sm','md','lg']" verticalAlignment="top" horizontalAlignment="left"
-      id="25806d85-78e5-47be-92a9-b84e49a28b88" v-bind:col="0" v-bind:row="0" v-bind:colSpan="1" v-bind:rowSpan="1"
-      v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
+      ncTypography="custom" fontSize="14" id="25806d85-78e5-47be-92a9-b84e49a28b88" v-bind:col="0" v-bind:row="0"
+      v-bind:colSpan="1" v-bind:rowSpan="1" v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0"
+      v-bind:marginBottom="0"
       v-bind:style="{'height':'auto','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
       slot="r0-c0" area="r0-c0">
       <NucGroupElement top="0%" left="0%" v-bind:snapX="false" v-bind:snapY="false" bgColor="" position="absolute"
@@ -21,11 +22,11 @@
           ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
           id="3f4db322-da16-40a0-a012-d5e4bdee0724"
           v-bind:style="{'width':'334px','height':'217px','zIndex':5,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
-        <WPillInfoButton tag="button" top="50.60067806603774%" left="19.485491071428573%" v-bind:pill="true" size="md"
-          text="CONTACT  US" type="button" v-bind:block="false" color="#000000" v-bind:snapX="false"
-          v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="info" position="absolute"
-          v-bind:isEnabled="true" background="#f1c50e" borderColor="#17A2B8" borderWidth="0px" ncTypography="custom"
-          v-bind:resetTrigger="false" ncTooltipText="" verticalWidth="60px"
+        <WPillInfoButton tag="button" top="43.23144104803494%" left="19.201995012468828%" v-bind:pill="true" size="md"
+          text="Neferdineorhananlarhalimisöylemüslümbabaneredensevdimozalimi" type="button" v-bind:block="false"
+          color="#000000" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false"
+          variant="info" position="absolute" v-bind:isEnabled="true" background="#f1c50e" borderColor="#17A2B8"
+          borderWidth="0px" ncTypography="custom" v-bind:resetTrigger="false" ncTooltipText="" verticalWidth="60px"
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" horizontalHeight="37.5347px"
           ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" nucalScaleHeight=""
@@ -33,19 +34,17 @@
           ncHoverBorderColor="#4285f4" ncDisableBorderColor="transparent" ncClickBackgroundColor="#4285f4"
           ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#969696"
           id="8fee7df8-5646-4327-8c7f-6d77ec9ae721"
-          v-bind:style="{'width':'63.27225px','height':'12.965625000000001px','zIndex':6,'fontSize':'4.408312500000001px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'0.36303749999999996','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'9.73321689375px','borderBottomWidth':'0px','borderTopLeftRadius':'1.03725px','borderTopRightRadius':'1.03725px','borderBottomLeftRadius':'1.03725px','borderBottomRightRadius':'1.03725px'}"/>
+          v-bind:style="{'width':'610px','height':'20px','zIndex':6,'fontSize':'15','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'0.36303749999999996','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'9.73321689375px','borderBottomWidth':'0px','borderTopLeftRadius':'1.03725px','borderTopRightRadius':'1.03725px','borderBottomLeftRadius':'1.03725px','borderBottomRightRadius':'1.03725px'}"/>
         <WLabel top="16.375545851528383%" left="19.45137157107232%" text="Welcome to IAG" v-bind:snapX="false"
           v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           id="5893a40c-ef5e-4f52-8f3d-7e3d73a9d8b9"
-          v-bind:style="{'color':'#000000','width':'217px','height':'129px','zIndex':7,'fontSize':'22','maxWidth':'','minWidth':'','fontStyle':'','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'bold','lineHeight':'0.34575','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':''}"/>
-        <WLabel top="29.66170400943396%" left="19.462053571428573%"
-          text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas s"
-          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
-          ncTooltipText=""
+          v-bind:style="{'color':'#000000','width':'309px','height':'39px','zIndex':7,'fontSize':'22','maxWidth':'','minWidth':'','fontStyle':'','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'bold','lineHeight':'0.34575','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':''}"/>
+        <WLabel top="36.24454148471616%" left="3.7406483790523692%" text="BURAKA BAKARLAR" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           id="c022ea16-f8c1-4639-933f-4c32b88efe0d"
-          v-bind:style="{'color':'#000000','width':'76.41075000000001px','height':'55.66575px','zIndex':8,'fontSize':'5.18625px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.36303749999999996','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+          v-bind:style="{'color':'#000000','width':'439px','height':'54px','zIndex':8,'fontSize':'40','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.36303749999999996','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
         <NucGroupElement top="61.31891214622642%" left="60.784598214285715%" v-bind:snapX="false" v-bind:snapY="false"
           bgColor="" position="absolute" borderWidth="0px" ncTooltipText="" v-bind:isLock="true"
           id="6e884565-3ed1-4dfb-893c-5bad22574414"
@@ -68,6 +67,59 @@
           ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
           id="3d8c72ec-f3f0-4a27-90de-d30a4a475253"
           v-bind:style="{'width':'27px','height':'79px','zIndex':11,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WLightButton tag="button" v-bind:pill="false" size="md" text="Light" type="button" v-bind:block="false"
+          color="" theme="theme--light01" v-bind:squared="false" variant="light" v-bind:isEnabled="true" background=""
+          borderColor="#F8F9FA" ncTypography="body1" v-bind:resetTrigger="false" ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" ncClickBorderColor="#4285f4"
+          ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4"
+          ncDisableBorderColor="transparent" ncClickBackgroundColor="#4285f4" ncFocusBackgroundColor="#4285f4"
+          ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#969696" position="absolute"
+          top="57.44759825327511%" left="29.64588528678304%" id="4bfe50df-8b22-44be-ad91-a5fcfff4e624"
+          v-bind:style="{'width':'','height':'','fontSize':'6.755999999999999px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'0.7881999999999999','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0.563px','textDecoration':'none','borderLeftWidth':'0.563px','borderRightWidth':'0.563px','horizontalHeight':'21.132036099999997px','borderBottomWidth':'0.563px','borderTopLeftRadius':'2.252px','borderTopRightRadius':'2.252px','borderBottomLeftRadius':'2.252px','borderBottomRightRadius':'2.252px','zIndex':12}"/>
+        <WIconButton tag="button" icon="fa fa-gem" v-bind:pill="false" size="md" text="YAVRUM NERDESİN" type="button"
+          v-bind:block="false" color="#FFFFFF" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" fontStyle="normal" iconColor="#FFFFFF" v-bind:isEnabled="true" background=""
+          fontFamily="OpenSans-Bold,Open Sans" fontWeight="400" layoutMode="left-to-right" lineHeight="1.2"
+          textShadow="" borderColor="#6C757D" iconFontSize="14px" ncTypography="body1" iconAlignment="center"
+          iconFontStyle="default" ncTooltipText="" verticalWidth="" iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          position="absolute" top="84.27947598253274%" left="54.239401496259354%"
+          id="e88abbc0-91f7-4999-a1ae-349b0e77dc8b"
+          v-bind:style="{'width':'285px','height':'67px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'solid','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.563px','borderLeftWidth':'0.563px','borderRightWidth':'0.563px','borderBottomWidth':'0.563px','borderTopLeftRadius':'2.252px','borderTopRightRadius':'2.252px','borderBottomLeftRadius':'2.252px','borderBottomRightRadius':'2.252px','zIndex':13}"/>
+        <TwPrimaryButton buttonHref="#" buttonColor="tw-bg-indigo-600" buttonLabel="ARASANDA"
+          buttonDisplay="tw-inline-flex" ncTooltipText="" buttonFontSize="tw-text-sm"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'buttonLabel','displayName':'ButtonLabel'}]}"
+          buttonTextColor="tw-text-white" buttonFontFamily="tw-font-sans" buttonFontWeight="tw-font-medium"
+          buttonHoverColor="tw-bg-indigo-700" buttonBorderColor="tw-border-transparent" buttonBorderWidth="tw-border"
+          buttonBorderRadius="tw-rounded-md" buttonBorderShadow="tw-shadow-sm" buttonTextAlignment="tw-items-center"
+          buttonJustifyContent="tw-justify-center" buttonBorderShadowColor="" position="absolute"
+          top="48.026405567685586%" left="68.20448877805487%" v-bind:isLocked="true"
+          id="0bfeec59-1a6b-4abe-aed7-ce54c63a8c0c"
+          v-bind:style="{'width':'178px','height':'25px','maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','zIndex':14}"/>
+        <WBadge href="" color="#FFFFFF" v-bind:exact="false" v-bind:active="false" v-bind:append="false" caption="Badge"
+          variant="secondary" v-bind:disabled="false" linkTarget="_self" tagOfBadge="span" v-bind:pillOfBadge="false"
+          ncTypography="body1" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'caption','displayName':'Caption'}]}"
+          toForRouterLink="" ncClickFontColor="#0000FF" ncFocusFontColor="#00FF00" ncHoverFontColor="#ff0000"
+          ncDisableFontColor="#4285f4" whichHeadTagForSize="h5" position="absolute" top="61.353711790393014%"
+          left="84.03990024937656%" v-bind:snapX="false" v-bind:snapY="false" id="04805b30-d51f-4d69-9513-2ab14ef99306"
+          v-bind:style="{'width':'66px','height':'37px','fontSize':'8.444999999999999px','maxWidth':'','minWidth':'','tabIndex':'-0.563','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7037499999999999','marginLeft':'0px','paddingTop':'2.8149999999999995px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'2.8149999999999995px','marginBottom':'0px','paddingRight':'2.8149999999999995px','paddingBottom':'2.8149999999999995px','textDecoration':'none','zIndex':15}"/>
+        <WDangerBadge href="" color="#FFFFFF" v-bind:exact="false" v-bind:active="false" v-bind:append="false"
+          caption="KİMBİLİR SU AN KİMLERLESİN" variant="danger" v-bind:disabled="false" linkTarget="_self"
+          tagOfBadge="span" v-bind:pillOfBadge="false" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'caption','displayName':'Caption'}]}"
+          toForRouterLink="" ncClickFontColor="#0000FF" ncFocusFontColor="#00FF00" ncHoverFontColor="#ff0000"
+          ncDisableFontColor="#4285f4" whichHeadTagForSize="h5" position="absolute" top="86.02620087336244%"
+          left="14.214463840399002%" id="e3c18108-608a-46ff-aa38-e746ce676642"
+          v-bind:style="{'width':'272px','height':'14px','fontSize':'15','maxWidth':'','minWidth':'','tabIndex':'-0.563','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7037499999999999','marginLeft':'0px','paddingTop':'2.8149999999999995px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'2.8149999999999995px','marginBottom':'0px','paddingRight':'2.8149999999999995px','paddingBottom':'2.8149999999999995px','textDecoration':'none','zIndex':16}"/>
       </NucGroupElement>
     </NucGridCell>
   </NucGridPage>
